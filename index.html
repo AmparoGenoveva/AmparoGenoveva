@@ -1,33 +1,56 @@
-<!-- Sección Amparo -->
-<section class="intro-block">
-  <div class="image-container">
-    <img src="imagenes/AmparoA.jpg" alt="Amparo A">
-    <img src="imagenes/AmparoB.jpg" alt="Amparo B" class="hover">
-  </div>
-  <div class="text-container left">
-    <h2>Amparo</h2>
-    <p>
-      Amparo explora el retrato como espejo de las tensiones actuales:
-      la necesidad de bienestar, el control sobre la vida y la ilusión
-      de sentido que proyectamos.
-    </p>
-    <a href="../Amparo/index.html" class="btn">Entrar</a>
-  </div>
-</section>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Amparo Genoveva</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <h1>Amparo Genoveva</h1>
+  </header>
 
-<!-- Sección Genoveva -->
-<section class="intro-block">
-  <div class="text-container right">
-    <h2>Genoveva</h2>
-    <p>
-      Genoveva investiga cómo el espacio, el clima y el tiempo modelan
-      nuestra percepción. Las cosas no importan tanto por lo que son,
-      sino por cómo las sentimos y lo que hacemos con lo que nos pasa.
-    </p>
-    <a href="../Genoveva/index.html" class="btn">Entrar</a>
-  </div>
-  <div class="image-container">
-    <img src="imagenes/GenovevaA.jpg" alt="Genoveva A">
-    <img src="imagenes/GenovevaB.jpg" alt="Genoveva B" class="hover">
-  </div>
-</section>
+  <main>
+    <!-- Bloque Amparo: imagen izquierda, texto derecha -->
+    <section class="intro-block">
+      <div class="image-stack" aria-hidden="true">
+        <img src="imagenes/AmparoA.jpg" alt="Amparo A — vista" class="base">
+        <img src="imagenes/AmparoB.jpg" alt="Amparo B — hover" class="hover">
+      </div>
+
+      <div class="text-container left">
+        <h2>Amparo</h2>
+        <p>
+          Amparo explora el retrato como espejo de las tensiones actuales:
+          la necesidad de bienestar, el control sobre la vida y la ilusión
+          de sentido que proyectamos.
+        </p>
+        <p><a class="btn" href="../Amparo/index.html">Entrar a Amparo →</a></p>
+      </div>
+    </section>
+
+    <!-- Bloque Genoveva: texto izquierda, imagen derecha -->
+    <section class="intro-block reverse">
+      <div class="text-container right">
+        <h2>Genoveva</h2>
+        <p>
+          Genoveva investiga cómo el espacio, el clima y el tiempo modelan
+          nuestra percepción. Las cosas no importan tanto en sí mismas como
+          en la forma en que las vivimos y lo que hacemos con lo que nos ocurre.
+        </p>
+        <p><a class="btn" href="../Genoveva/index.html">Entrar a Genoveva →</a></p>
+      </div>
+
+      <div class="image-stack" aria-hidden="true">
+        <img src="imagenes/GenovevaA.jpg" alt="Genoveva A — vista" class="base">
+        <img src="imagenes/GenovevaB.jpg" alt="Genoveva B — hover" class="hover">
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Amparo Genoveva</p>
+  </footer>
+</body>
+</html>
